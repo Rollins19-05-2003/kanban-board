@@ -7,10 +7,14 @@ import List from './Components/List/List';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {
-  const statusList = ['Backlog', 'Todo', 'In progress', 'Done', 'Cancelled']
-  const userList = ['Anoop sharma', 'Ramesh', 'Shankar Kumar', 'Suresh', 'Yogesh']
-  const priorityList = [{name:'No priority', priority: 0}, {name:'Urgent', priority: 4}, {name:'High', priority: 3}, {name:'Medium', priority: 2}, {name:'Low', priority: 1}]
+  // const statusList = ['Backlog', 'Todo', 'In progress', 'Done', 'Cancelled']
+  // const userList = ['Anoop sharma', 'Ramesh', 'Shankar Kumar', 'Suresh', 'Yogesh']
+  // const priorityList = [{name:'No priority', priority: 0}, {name:'Urgent', priority: 4}, {name:'High', priority: 3}, {name:'Medium', priority: 2}, {name:'Low', priority: 1}]
 
+  const statusList = ['In progress', 'Backlog', 'Todo', 'Done', 'Cancelled']
+  const userList = ['Anoop sharma', 'Yogesh', 'Shankar Kumar', 'Ramesh', 'Suresh']
+  const priorityList = [{name:'No priority', priority: 0}, {name:'Low', priority: 1}, {name:'Medium', priority: 2}, {name:'High', priority: 3}, {name:'Urgent', priority: 4}]
+  
   const [groupValue, setgroupValue] = useState(getStateFromLocalStorage() || 'status')
   const [orderValue, setorderValue] = useState('title')
   const [ticketDetails, setticketDetails] = useState([]);
