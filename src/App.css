@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root{
   --white1: #ffffff;
   --black1: #000000;
@@ -12,8 +13,8 @@
   --grey1: #dfe4e9;
   --grey2: #f0f1f4;
   --grey3: #F8F8FA;
-
 }
+
 .board-details{
   width: 100%;
   height: calc(100vh - 68px);
@@ -23,9 +24,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .board-details-list{
   width: fit-content;
   display: flex;
   flex-wrap: wrap;
-
 }
