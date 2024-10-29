@@ -18,6 +18,7 @@
   width: 100%;
   height: calc(100vh - 68px);
   background-color: var(--grey2);
+  justify-content: center;
   overflow-x: scroll;
   display: flex;
   flex-wrap: wrap;
